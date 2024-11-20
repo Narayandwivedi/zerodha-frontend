@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="container">
+    <div className="hero-container">
       <div className="row p-5 text-center" >
         <img className="mb-5" src="image/homeHero.png" alt="hero image" />
         <h1 className="mt-4">Invest in everything</h1>

@@ -1,0 +1,21 @@
+
+
+
+
+/* stats */
+
+.stats-container h3{
+    font-size: 1.25rem;
+}
+ 
+.stats-container p {
+    color: #666;
+}
+
+.stats-container a {
+    text-decoration: none;
+}
+
+
+/* pricing */
+
