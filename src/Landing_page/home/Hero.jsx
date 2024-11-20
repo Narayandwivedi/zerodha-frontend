@@ -8,7 +8,7 @@ export default function Hero() {
           Online platform to invest in stocks, derivatives, mutual funds, ETFs,
           bonds, and more.
         </p>
-        <button style={{width : "30%" , margin : "0 auto"}}>sign now </button>
+        <button className="p-2 btn btn-primary fs-5 mb-5" style={{width : "20%" , margin : "0 auto"}}>sign now </button>
       </div>
     </div>
   );
