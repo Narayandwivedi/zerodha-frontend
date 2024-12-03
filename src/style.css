@@ -1,13 +1,9 @@
-
-
-
-
 /* stats */
 
-.stats-container h3{
+.stats-container h3 {
     font-size: 1.25rem;
 }
- 
+
 .stats-container p {
     color: #666;
 }
@@ -19,3 +15,6 @@
 
 /* pricing */
 
+a {
+    text-decoration: none;
+}
