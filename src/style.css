@@ -1,20 +1,50 @@
-/* stats */
-
-.stats-container h3 {
-    font-size: 1.25rem;
+* {
+  font-family: Inter;
 }
 
-.stats-container p {
-    color: #666;
+.nav-link {
+  margin-left: 40px;
 }
 
-.stats-container a {
-    text-decoration: none;
+/* footer */
+
+
+
+.social{
+  display: flex;
+  gap: 1.2rem;
+}
+
+.social li{
+
+  font-size: 1.25rem;
+}
+
+.social hr {
+  background-color: aqua;
+}
+
+.footer1 li {
+  list-style: none;
+  line-height: 2.2rem;
 }
 
 
-/* pricing */
+.footer1 .nav-head {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
 
-a {
-    text-decoration: none;
+.footer1 li a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.footer2 {
+  font-size: 0.65rem;
+  color: #666666;
+}
+.footer2 a {
+  text-decoration: none;
 }
