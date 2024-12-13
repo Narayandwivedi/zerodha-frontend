@@ -33,11 +33,11 @@ export default function Navbar() {
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="/pricing">Pricing</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Support</a>
+                <a class="nav-link" href="/support">Support</a>
               </li>
 
             </ul>

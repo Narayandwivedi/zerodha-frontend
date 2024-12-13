@@ -6,7 +6,8 @@ import HomePage from "./Landing_page/home/HomePage";
 import Signup from "./Landing_page/signup/Signup"
 import AboutPage from "./Landing_page/about/AboutPage"
 import ProductPage from "./Landing_page/products/productPage"
-import pricingPage from "./Landing_page/pricing/PricingPage";
+import PricingPage from "./Landing_page/pricing/PricingPage";
+import SupportPage from "./Landing_page/support/SupportPage"
 import NotFound from "./Landing_page/Notfound";
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import "./index.css";
@@ -20,7 +21,8 @@ createRoot(document.getElementById("root")).render(
     <Route path="signup" element={<Signup/>}/>
     <Route path="about" element={<AboutPage/>}/>
     <Route path="products" element={<ProductPage/>}></Route>
-    <Route path="pricing" element={<pricingPage/>}></Route>
+    <Route path="pricing" element={<PricingPage/>}></Route>
+    <Route path="support" element={<SupportPage/>}></Route>
     <Route path="*" element={<NotFound/>}></Route>
 
   </Routes>

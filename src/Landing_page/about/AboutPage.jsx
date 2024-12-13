@@ -1,3 +1,11 @@
+import Hero from "./Hero";
+import People from "./People"
+
 export default function AboutPage() {
-  return <h1> this is about page </h1>;
+  return (
+    <div>
+      <Hero />
+      <People/>
+    </div>
+  );
 }

@@ -1,3 +1,15 @@
-export default function pricingPage(){
-    return(<h2>This is pricing page</h2>)
+import Hero from "./Hero";
+import Brokerage from "./Brokerage";
+import OpenAccount from "../OpenAccount";
+
+function PricingPage() {
+  return (
+    <>
+      <Hero />
+      <OpenAccount />
+      <Brokerage />
+    </>
+  );
 }
+
+export default PricingPage;
